@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34322.80
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetodoMontecarlo", "MetodoMontecarlo.csproj", "{3E56C10A-2654-4AB8-ADD7-0CF7CA5C84DA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E56C10A-2654-4AB8-ADD7-0CF7CA5C84DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E56C10A-2654-4AB8-ADD7-0CF7CA5C84DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E56C10A-2654-4AB8-ADD7-0CF7CA5C84DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E56C10A-2654-4AB8-ADD7-0CF7CA5C84DA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A302A18C-E5DA-4CA7-A748-C223A11DFDF8}
+	EndGlobalSection
+EndGlobal
