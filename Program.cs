@@ -11,7 +11,7 @@ namespace MetodoMontecarlo
         
         static void Main(string[] args)
         {
-            Console.Write("Quanti tentativi vuoi? ");
+            Console.Write("How many attempts do you want? ");
             double attempts = double.Parse(Console.ReadLine());
             double increase = 1.0 / attempts;
             double contInside = 0;
@@ -21,7 +21,7 @@ namespace MetodoMontecarlo
                 contInside += p.IsInside();
             }
             double pi = contInside / attempts * 4;
-            Console.WriteLine("Il Pi greco stimato con {0}: {1}", attempts, pi);
+            Console.WriteLine(Pi estimated with {0}: {1}", attempts, pi);
             Console.ReadKey();
         }
     }
